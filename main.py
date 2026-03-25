@@ -11,7 +11,6 @@ def func2(data):
     print('Here is the data:')
     print(data)
 
-    choice = ''
     while True:
         choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if choice == '1':
