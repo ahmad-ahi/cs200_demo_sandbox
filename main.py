@@ -1,10 +1,10 @@
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
-    inpnuma = int(input('num:'))
-    while inpnuma != 0:
-        lst.append(inpnuma)
-        inpnuma = int(input('num:'))
+    inpnum = int(input('num:'))
+    while inpnum != 0:
+        lst.append(inpnum)
+        inpnum = int(input('num:'))
     print('You entered',len(lst),'numbers.')
     return lst
 
